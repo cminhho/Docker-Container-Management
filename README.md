@@ -4,11 +4,13 @@
 The Docker API has allowed limitless options for interfacing with Docker engine, containers, and images to emerge from CLIs to desktop applications and web-based management tools.
 
 ## Requirement
-Create a web application tool for managing Docker environments by using API to interact with Docker engine.
-
-Everything the Docker client can do can be done with the API.
+Create a web application that allows to easily manage Docker containers, images, networks and volumes.
 
 ## Solution
+Create a web application tool for managing Docker environments by using API to interact with Docker engine.
+Everything the Docker client can do can be done with the API.
+
+### Using Open Source
 Use <b>Portainer</b>(formerly UI for Docker) is a free open-source web application that runs as a container itself.
 
 Portainer makes wide use of the Docker API to handle its interactions and monitoring, but for automation, also exposes its own API and template file format. 
